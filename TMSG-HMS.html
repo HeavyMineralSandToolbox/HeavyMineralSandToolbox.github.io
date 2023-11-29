@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timescales of Mineral Systems Group</title>
+    <link rel="stylesheet" href="stylesTMSG.css">
+    <script src="scriptsTMSG.js" defer></script>
+<meta name="description" content="The Timescales of Mineral Systems Group presents an integrated toolkit for understanding mineral sands through geochronology, geochemistry, and grain shape analysis.">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/TMS-logo_Master.jpg" alt="Logo" class="logo">
+        </div>
+        <h1>Integrated 3G - Geochronology-geochemistry-grain shape: <br> a new toolkit for mineral sands understanding</h1>
+        <h2>A <em style="color: #006992; font-style: italic;">Heavy Mineral Sand Toolbox</em> to mineral sands exploration:<br>Leveraging state-of-the-art technologies to minimize exploration risks<br>through understanding of complex grain histories</h2>
+    </header>
+    <main>
+        <section id="section1">
+  <h3>See the world in a grain of sand!&nbsp;</h3>
+  <div class="image-container">
+    <svg viewBox="0 0 1000 300" preserveAspectRatio="xMinYMin meet">
+      <image href="Main image.svg" width="1000" height="300" />
+		<text id="mineral1" class="mineral" x="820" y="30">Zircon <tspan class="arrow" dy="0">&gt;</tspan></text>
+		<text id="mineral2" class="mineral" x="820" y="62">Baddeleyite <tspan class="arrow" dy="0">&gt;</tspan></text>
+		<text id="mineral3" class="mineral" x="820" y="105">Rutile <tspan class="arrow" dy="0">&gt;</tspan></text>
+		<text id="mineral4" class="mineral" x="820" y="138">Titanite <tspan class="arrow" dy="0">&gt;</tspan></text>
+		<text id="mineral5" class="mineral" x="820" y="175">Monazite <tspan class="arrow" dy="0">&gt;</tspan></text>
+		<text id="mineral6" class="mineral" x="820" y="198">Xenotime <tspan class="arrow" dy="0">&gt;</tspan></text>
+		<text id="mineral7" class="mineral" x="820" y="222">Garnet <tspan class="arrow" dy="0">&gt;</tspan></text>
+		<text id="mineral8" class="mineral" x="820" y="246">Apatite <tspan class="arrow" dy="0">&gt;</tspan></text>
+		<text id="mineral9" class="mineral" x="820" y="269">Cassiterite <tspan class="arrow" dy="0">&gt;</tspan></text>
+		<text id="mineral10" class="mineral" x="820" y="292">Feldspar <tspan class="arrow" dy="0">&gt;</tspan></text>
+		<rect id="rect1" class="interactive-rect" x="90" y="200" width="140" height="55" rx="10" ry="10" fill="grey" stroke="black" stroke-width="2"></rect>
+		<text id="rect1-text" class="interactive-rect-text" x="110" y="225">
+			<tspan>Source</tspan>
+					  <tspan x="110" dy="1.2em">characterisation </tspan><tspan class="arrow" dy="0">&gt;</tspan></text>
+		<rect id="rect2" class="interactive-rect" x="320" y="50" width="140" height="55" rx="10" ry="10" fill="grey" stroke="black" stroke-width="2"></rect>
+		<text id="rect2-text" class="interactive-rect-text" x="335" y="75">
+					  <tspan>Sediment transport</tspan>
+					  <tspan x="335" dy="1.2em">pathways </tspan><tspan class="arrow" dy="0">&gt;</tspan>
+					</text>
+		<rect id="rect3" class="interactive-rect" x="320" y="225" width="140" height="55" rx="10" ry="10" fill="grey" stroke="black" stroke-width="2"></rect>
+		 <text id="rect3-text" class="interactive-rect-text" x="340" y="250">
+			 <tspan>Depositional</tspan>
+					  <tspan x="340" dy="1.2em">constraints</tspan>
+					<tspan class="arrow" dy="0">&gt;</tspan></text>
+    </svg>
+  </div>
+</section>
+	<section id="section2-option1" class="collapsible-section">
+       <h3 class="section-header collapsed">
+  <img src="img/toolbox-solid.svg" alt="Toolbox Icon" width="25px" height="25px">
+   RESOURCE FERTILITY: Source characterisation&nbsp;</h3>
+        <div class="content-wrapper">
+			<div class="flex-container">
+			  <ul class="interactive-list">
+				<li class="interactive" id="bullet1">Dating of detrital minerals</li>
+<li class="interactive" id="bullet2">Protolith characterisation and discrimination using trace element analysis</li>
+<li class="interactive" id="bullet3">Estimations of mineral formation temperatures (e.g., to decipher the metamorphic grade of source rocks)</li>
+<li class="interactive" id="bullet13">Accurate silica estimates for zircon source rocks (e.g. as a discriminant in provenance analysis)</li>
+</ul>
+<div id="info-content1" class="info-content">
+    <ul>
+        <li>Measuring the diagnostic age spectrum (fingerprint) of detrital minerals allows for correlation of detritus and source rocks</li>
+        <li>The gold standard (due to internal verification of the age) is U-Pb geochronology that can be performed on a wide variety of minerals, e.g., <span class="interactive-word" id="zircon-word">zircon</span>, <span class="interactive-word" id="titanite-word">titanite</span>, <span class="interactive-word" id="rutile-word">rutile</span>, <span class="interactive-word" id="monazite-word">monazite</span></li>
+        <li>Recent technological advances also allow for Lu-Hf geochronology of <span class="interactive-word" id="garnet-word">garnet</span> and <span class="interactive-word" id="apatite-word">apatite</span></li>
+                </ul>
+<img src="img/Source characterisation/S2Sconcept.png" alt="Example 1" class="example-image">
+<button class="view-example" onclick="window.open('https://doi.org/10.1016/j.epsl.2022.117425')">View Example</button>
+</div>
+                        <div id="info-content2" class="info-content">
+                <ul>
+                    <li>Trace element chemistry is often reflective of the geodynamic setting of a mineral</li>
+					<li>Many discriminative ratios exist that allow protolith discrimination</li>
+					<li>Particularly strong candidates for trace element analysis are <span class="interactive-word" id="rutile-word1">rutile</span> (Cr/Nb), <span class="interactive-word" id="zircon-word1">zircon</span> (REE), and <span class="interactive-word" id="monazite-word1">monazite</span> (REE)</li>
+					                </ul>
+                <img src="img/Source characterisation/Traces.png" alt="Example 2">
+                <button class="view-example" onclick="window.open('https://doi.org/10.1111/bre.12715', '_blank')">View Example</button>
+            </div>
+				<div id="info-content3" class="info-content">
+                <ul>
+                    <li>Understanding formation temperatures helps refine source-to-sink reconstructions</li>
+					<li>Zirconium content in <span class="interactive-word" id="rutile-word3">rutile</span> allows calculation of <span class="interactive-word" id="rutile-word2">rutile</span> growth temperatures and, hence, can be used to track high-grade metamorphic rocks that are fertile sources for this mineral</li>
+					<li>Titanium content in <span class="interactive-word" id="zircon-word2">zircon</span> is also temperature-dependent and can be used to obtain formation temperatures for this mineral</li>
+                </ul>
+                <img src="img/Source characterisation/Temp.PNG" alt="Example 2">
+                <button class="view-example" onclick="window.open('https://doi.org/10.1111/bre.12715', '_blank')">View Example</button>
+            </div>
+				<div id="info-content13" class="info-content">
+                <ul>
+                    <li>Zircon grain shape is influenced by source magma chemistry during crystal growth, and may be later modified by erosion in a detrital setting</li>
+					<li>Zircon's susceptibility to erosion is linked to the uranium and thorium content of the crystals</li>
+					<li>Using the predictive power of machine learning algorithms, we can leverage the causal link between parent magma chemistry and zircon grain shape, to predict the silica content of the source rock for a zircon population</li>
+                </ul>
+                <img src="img/Source characterisation/Grainshape_Taryn.PNG" alt="Example 2" style="width: 50%; height: auto;">
+                <button class="view-example" onclick="window.open('https://doi.org/10.1029/2023GC011018', '_blank')">View Example</button>
+            </div>
+				</div>
+			</div>
+</section>
+
+    <section id="section2-option2" class="collapsible-section">
+  <h3 class="section-header collapsed">
+    <img src="img/toolbox-solid.svg" alt="Toolbox Icon" width="25px" height="25px"> RESOURCE PATHWAYS AND UPGRADING: Sediment transport metrics&nbsp;</h3>
+  <div class="content-wrapper">
+    <div class="flex-container">
+      <ul class="interactive-list">
+        <li class="interactive" id="bullet4">Source-normalized α-dose of detrital zircon to quantify upgrading of heavy mineral cargo during sedimentary transport and recycling</li>
+        <li class="interactive" id="bullet5">Age distributions of detrital minerals reveal sediment mixing processes of the drainage system</li>
+        <li class="interactive" id="bullet6">Mineral ratios, such as the apatite-tourmaline ratio (ATi), track upgrading processes</li>
+      </ul>
+      <div id="info-content4" class="info-content">
+        <ul>
+          <li>α-dose of detrital <span class="interactive-word" id="zircon-word4">zircon</span> used to identify sedimentary lifecycle of grains</li>
+          <li>Selective removal of more labile (metamict) <span class="interactive-word" id="zircon-word5">zircon</span> revealed by α-dose</li>
+          <li>Source-normalized α-dose discriminates first- versus multi-cycle grains</li>
+		  <li>Source-normalized α-dose correlates to upgrading of heavy minerals</li>
+        </ul>
+        <img src="img/Sediment transport metrics/a-dose.png" alt="Example 4" class="example-image" style="width: 70%; height: auto;">
+        <button class="view-example" onclick="window.open('https://doi.org/10.1016/j.epsl.2021.117346', '_blank')">View Example</button>
+      </div>
+      <div id="info-content5" class="info-content">
+        <ul>
+          <li>Detrital <span class="interactive-word" id="zircon-word6">zircon</span> population characteristics capture heterogeneity of hinterland sediment sources and degree of sediment mixing and reworking</li>
+          <li>Passive margins/extensional settings with well-mixed, multi-cycle sediment typified by dispersed polymodal age populations</li>
+          <li>Statistical analysis of the age distributions - using the Shannon-Weaver diversity index, the 10<sup>th</sup> to 50<sup>th</sup> percentile and Chi<sup>2</sup> metric - can reveal mixing processes related to time in the sedimentary system(s), and may track increases in HM grade</li>
+        </ul>
+        <img src="img/Sediment transport metrics/Zircon-age-distribution-fingerprint.PNG" alt="Example 5" style="width: 70%; height: auto;">
+        <button class="view-example" onclick="window.open('https://doi.org/10.1016/j.epsl.2022.117425', '_blank')">View Example</button>
+      </div>
+      <div id="info-content6" class="info-content">
+        <ul>
+          <li>Mineral indices can track variations in provenance and maturity, e.g., zircon-rutile-tourmaline (ZTR) and apatite-tourmaline (ATi) are used to adress maturity of sediments and exposure to weathering in intermediate storage</li>
+          <li>ATi (100 × apatite / apatite+tourmaline) index shows promising results in the context of heavy mineral deposits, tracking upgrading processes</li>
+        </ul>
+        <img src="img/Sediment transport metrics/mineral-index.png" alt="Example 6">
+        <button class="view-example" onclick="window.open('https://doi.org/10.3390/min9070454', '_blank')">View Example</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section2-option3" class="collapsible-section">
+  <h3 class="section-header collapsed">
+    <img src="img/toolbox-solid.svg" alt="Toolbox Icon" width="25px" height="25px"> RESOURCE TRAPS AND TARGETING: Depositional constraints</h3>
+  <div class="content-wrapper">
+    <div class="flex-container">
+      <ul class="interactive-list">
+		<li class="interactive" id="bullet7">Dating of ferruginous induration tracks (post-)depositional processes, such as declining water tables </li>
+        <li class="interactive" id="bullet8">Xenotime outgrowths on detrital zircon (and other authigenic minerals) can provide depositional age constraints by forming during diagenesis within a deposit or identify intermediate source rocks if representing an earlier diagenetic phase</li>
+		<li class="interactive" id="bullet9">Dating of detrital minerals provides a maximum depositional age (MDA) constraint that can approach true depositional age, particularly in volcanic regions </li>
+<!--        <li class="interactive" id="bullet9">Age dating of Pyrite?</li>-->
+      </ul>
+      <div id="info-content7" class="info-content">
+        <ul>
+          <li>(U-Th)/He data from ferruginous indurations capture the onset of Plio-Pleistocene aridification in southern Australia</li>
+          <li>Correlation of induration age with other climatic proxies indicates that ferruginous indurations track terrestrial water table evolution</li>
+          <li>Indurations that relate to early diagenetic processes of deposits or groundwater decline related to SL-fall may help to extract depositional time constraints</li>
+        </ul>
+        <img src="img/Depositional constraints/Ferru indurations.PNG" alt="Example 7" class="example-image">
+        <button class="view-example" onclick="window.open('https://doi.org/10.1029/2023GL102928', '_blank')">View Example</button>
+      </div>
+		<div id="info-content8" class="info-content">
+        <ul>
+          <li>Conventionally, <span class="interactive-word" id="xenotime-word">xenotime</span> outgrowths were used to collect age constraints on depositional processes</li>
+          <li>Recent findings suggest <span class="interactive-word" id="xenotime-word1">xenotime</span> outgrowth may also be useful to track sediment routing from intermediate source rocks</li>
+          <li>The latter is promising to better understand sediment recycling and, hence, upgrading of heavy minerals</li>
+        </ul>
+        <img src="img/Xenotime/Xenotime-depo.png" alt="Example 8">
+        <button class="view-example" onclick="window.open('https://doi.org/10.1130/G51178.1', '_blank')">View Example</button>
+      </div>
+      <div id="info-content9" class="info-content">
+        <ul>
+          <li>Maximum depositional age can be constrained using <span class="interactive-word" id="zircon-word8">zircon</span> age dating</li>
+		  <li>Concept: Sediment must be younger than the youngest <span class="interactive-word" id="zircon-word9">zircon</span> grains</li>
+          <li>The concept is most appropriate in areas with active volcanism during sediment deposition</li>
+		 <li>Double dating of <span class="interactive-word" id="zircon-word10">zircon</span> integrating U-Pb and (U-Th)/He systems is most promising tool to detect volcanic components</li> 
+        </ul>
+        <img src="img/Depositional constraints/MDA.PNG" alt="Example 9">
+        <button class="view-example" onclick="window.open('https://doi.org/10.1016/j.gsf.2019.01.003', '_blank')">View Example</button>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section3" class="collapsible-section">
+    <h3 class="section-header collapsed">
+  <img src="img/gem-solid.svg" alt="Toolbox Icon" width="25px" height="25px"> The Mineral Library&nbsp;</h3>
+    <div class="content-wrapper">
+    <div class="mineral-library-container">
+        <h4 id="library-mineral1" class="hidden">Zircon</h4>
+        <div id="library-info-box1" class="library-info-box hidden">
+            <ul>
+                <li class="interactive" id="sec3bullet1" onclick="updateImageForSection('image1', event); showExampleButton('ex-but1', event)">Age dating of detrital zircon identifies igneous sources</li>
+                <li class="interactive" id="sec3bullet2" onclick="updateImageForSection('image2', event); showExampleButton('ex-but2', event)">Trace element geochemistry reveals protolith characteristics</li>
+                <li class="interactive" id="sec3bullet3" onclick="updateImageForSection('image3', event); showExampleButton('ex-but3', event)">Titanium concentration in zircon, being temperature-dependent, allows for estimation of igneous source rock crystallization temperatures</li>
+                <li class="interactive" id="sec3bullet4" onclick="updateImageForSection('image4', event); showExampleButton('ex-but4', event)">(U-Th)/He thermochronology combined with U-Pb dating (double dating) effectively characterizes the low-temperature geological history of grains, such as intermediate burial in sedimentary basins</li>
+				<li class="interactive" id="sec3bullet5" onclick="updateImageForSection('image5', event); showExampleButton('ex-but5', event)">Lu-Hf geochemistry provides a detailed understanding of the geological history of source areas</li>
+				<li class="interactive" id="sec3bullet6" onclick="updateImageForSection('image6', event); showExampleButton('ex-but6', event)">Zircon grain shape contains provenance and transport information, complementing geochemical and geochronological techniques</li>
+				
+            </ul>
+            <img id="image1" src="img/Zircon/Zircon-UPb.PNG" alt="Image 1" class="library-example-image hidden">
+            <img id="image2" src="img/Zircon/Zircon-TE.PNG" alt="Image 2" class="library-example-image hidden">
+            <img id="image3" src="img/Zircon/Zircon-Temp.PNG" alt="Image 3" class="library-example-image hidden">
+            <img id="image4" src="img/Zircon/Zircon-He.PNG" alt="Image 4" class="library-example-image hidden">
+			<img id="image5" src="img/Zircon/Zircon-LuHf.PNG" alt="Image 5" class="library-example-image hidden">
+			<img id="image6" src="img/Zircon/Grainshape.png" alt="Image 6" class="library-example-image hidden">
+            <button id="ex-but1" class="view-example hidden" onclick="window.open('https://doi.org/10.1111/bre.12715', '_blank')">View Example</button>
+            <button id="ex-but2" class="view-example hidden" onclick="window.open('https://doi.org/10.1111/bre.12715', '_blank')">View Example</button>
+            <button id="ex-but3" class="view-example hidden" onclick="window.open('https://doi.org/10.1111/bre.12715', '_blank')">View Example</button>
+            <button id="ex-but4" class="view-example hidden" onclick="window.open('https://doi.org/10.1016/j.gsf.2019.01.003', '_blank')">View Example</button>
+			<button id="ex-but5" class="view-example hidden" onclick="window.open('https://doi.org/10.1111/bre.12715', '_blank')">View Example</button>
+			<button id="ex-but6" class="view-example hidden" onclick="window.open('https://doi.org/10.1029/2023GC011018', '_blank')">View Example</button>
+        </div>
+         <h4 id="library-mineral2" class="hidden">Baddeleyite</h4>
+        <div id="library-info-box2" class="library-info-box hidden">
+            <ul>
+                <li class="interactive" id="sec3bullet7" onclick="updateImageForSection('image7', event); showExampleButton('ex-but7', event)">Baddeleyite is typically found in silica-undersaturated rocks and, thus, U-Pb dating of detrital baddeleyite complements zircon dating, as zircon is sourced from silica-saturated sources</li>
+<!--
+                <li class="interactive" id="sec3bullet8" onclick="updateImageForSection('image8', event); showExampleButton('ex-but8', event)">U-Pb dating of detrital baddeleyite complements zircon dating, as zircon is sourced from silica-saturated systems</li>
+                <li class="interactive" id="sec3bullet9" onclick="updateImageForSection('image9', event); showExampleButton('ex-but9', event)">Trace elements in baddeleyite help discriminate protolith characteristics</li>
+-->
+            </ul>
+            <img id="image7" src="img/Baddeleyite/Baddeleyite-UPb.PNG" alt="Image 7" class="library-example-image hidden">
+<!--
+            <img id="image8" src="img/Baddeleyite/Baddeleyite-UPb.PNG" alt="Image 8" class="library-example-image hidden">
+            <img id="image9" src="img/Baddeleyite/Baddeleyite-TE.PNG" alt="Image 9" class="library-example-image hidden">
+-->
+            <button id="ex-but7" class="view-example hidden" onclick="window.open('https://doi.org/10.5194/gchron-2-187-2020', '_blank')">View Example</button>
+<!--
+            <button id="ex-but8" class="view-example hidden" onclick="window.open('https://www.example.com', '_blank')">View Example</button>
+            <button id="ex-but9" class="view-example hidden" onclick="window.open('https://www.example.com', '_blank')">View Example</button>
+-->
+        </div>
+
+					<h4 id="library-mineral3" class="hidden">Rutile</h4>
+			<div id="library-info-box3" class="library-info-box hidden">
+				<ul>
+					<li class="interactive" id="sec3bullet1_rutile" onclick="updateImageForSection('image1_rutile', event); showExampleButton('ex-but1_rutile', event)">U-Pb dating of rutile identifies metamorphic source rocks</li>
+					<li class="interactive" id="sec3bullet2_rutile" onclick="updateImageForSection('image2_rutile', event); showExampleButton('ex-but2_rutile', event)">Trace element concentrations in rutile are sensitive to protolith chemistry and can discriminate between (meta-)pelitic and mafic sources</li>
+					<li class="interactive" id="sec3bullet3_rutile" onclick="updateImageForSection('image3_rutile', event); showExampleButton('ex-but3_rutile', event)">Zr concentrations in rutile allow for estimation of rutile formation temperature, quantifying the metamorphic grade of sources</li>
+					<li class="interactive" id="sec3bullet4_rutile" onclick="updateImageForSection('image4_rutile', event); showExampleButton('ex-but4_rutile', event)">(U-Th)/He thermochronology combined with U-Pb dating (double dating) effectively characterizes the low-temperature geological history of grains, such as intermediate burial in sedimentary basins</li>
+				</ul>
+				<img id="image1_rutile" src="img/Rutile/Rutile-UPb.PNG" alt="Rutile Image 1" class="library-example-image hidden">
+				<img id="image2_rutile" src="img/Rutile/Rutile-TE.PNG" alt="Rutile Image 2" class="library-example-image hidden">
+				<img id="image3_rutile" src="img/Rutile/Rutile-Temp.PNG" alt="Rutile Image 3" class="library-example-image hidden">
+				<img id="image4_rutile" src="img/Rutile/Rutile-He.PNG" alt="Rutile Image 4" class="library-example-image hidden">
+				<button id="ex-but1_rutile" class="view-example hidden" onclick="window.open('https://doi.org/10.1111/bre.12715', '_blank')">View Example</button>
+				<button id="ex-but2_rutile" class="view-example hidden" onclick="window.open('https://doi.org/10.1111/bre.12715', '_blank')">View Example</button>
+				<button id="ex-but3_rutile" class="view-example hidden" onclick="window.open('https://doi.org/10.1111/bre.12715', '_blank')">View Example</button>
+				<button id="ex-but4_rutile" class="view-example hidden" onclick="window.open('https://doi.org/10.1029/2019GC008484', '_blank')">View Example</button>
+			</div>
+
+					<h4 id="library-mineral4" class="hidden">Titanite</h4>
+			<div id="library-info-box4" class="library-info-box hidden">
+				<ul>
+					<li class="interactive" id="sec3bullet1_titanite" onclick="updateImageForSection('image1_titanite', event); showExampleButton('ex-but1_titanite', event)">U-Pb and Sm-Nd dating of titanite can reveal a wide range of source rocks</li>
+					<li class="interactive" id="sec3bullet2_titanite" onclick="updateImageForSection('image2_titanite', event); showExampleButton('ex-but2_titanite', event)">Trace element concentrations are  an additional proxy for understanding source rock composition</li>
+				</ul>
+				<img id="image1_titanite" src="img/Titanite/Titanite-UPb.PNG" alt="Titanite Image 1" class="library-example-image hidden">
+				<img id="image2_titanite" src="img/Titanite/Titanite-TE.PNG" alt="Titanite Image 2" class="library-example-image hidden">
+				<button id="ex-but1_titanite" class="view-example hidden" onclick="window.open('https://doi.org/10.1029/2018GC008005', '_blank')">View Example</button>
+				<button id="ex-but2_titanite" class="view-example hidden" onclick="window.open('https://doi.org/10.1029/2018GC008005', '_blank')">View Example</button>
+			</div>
+
+						<h4 id="library-mineral5" class="hidden">Monazite</h4>
+				<div id="library-info-box5" class="library-info-box hidden">
+					<ul>
+						<li class="interactive" id="sec3bullet1_monazite" onclick="updateImageForSection('image1_monazite', event); showExampleButton('ex-but1_monazite', event)">Monazite forms in various geological environments, and U-Th-Pb dating provides temporal constraints on formation processes</li>
+						<li class="interactive" id="sec3bullet2_monazite" onclick="updateImageForSection('image2_monazite', event); showExampleButton('ex-but2_monazite', event)">Trace element chemistry helps distinguish source rock parageneses and formation processes</li>
+<!--						<li class="interactive" id="sec3bullet3_monazite" onclick="updateImageForSection('image3_monazite', event); showExampleButton('ex-but3_monazite', event)">Sm-Nd isotope geochemistry of Monazite offers insights into the geological history of sediment source areas</li>-->
+					</ul>
+					<img id="image1_monazite" src="img/Monazite/Monazite-UPb.PNG" alt="Monazite Image 1" class="library-example-image hidden">
+					<img id="image2_monazite" src="img/Monazite/Monazite-TE.PNG" alt="Monazite Image 2" class="library-example-image hidden">
+<!--					<img id="image3_monazite" src="img/Monazite/Monazite-Sm-Nd.PNG" alt="Monazite Image 3" class="library-example-image hidden">-->
+					<button id="ex-but1_monazite" class="view-example hidden" onclick="window.open('https://doi.org/10.3390/geosciences10020063', '_blank')">View Example</button>
+					<button id="ex-but2_monazite" class="view-example hidden" onclick="window.open('https://doi.org/10.3390/geosciences10020063', '_blank')">View Example</button>
+<!--					<button id="ex-but3_monazite" class="view-example hidden" onclick="window.open('https://www.example.com', '_blank')">View Example</button>-->
+				</div>
+
+
+							<h4 id="library-mineral6" class="hidden">Xenotime</h4>
+				<div id="library-info-box6" class="library-info-box hidden">
+					<ul>
+						<li class="interactive" id="sec3bullet1_xenotime" onclick="updateImageForSection('image1_xenotime', event); showExampleButton('ex-but1_xenotime', event)">Age dating of detrital xenotime provides ages on igneous source rocks</li>
+						<li class="interactive" id="sec3bullet2_xenotime" onclick="updateImageForSection('image2_xenotime', event); showExampleButton('ex-but2_xenotime', event)">Xenotime outgrowths on detrital zircon offer age constraints on depositional processes and intermediate processes</li>
+						<li class="interactive" id="sec3bullet3_xenotime" onclick="updateImageForSection('image3_xenotime', event); showExampleButton('ex-but3_xenotime', event)">Trace element chemistry discriminates formation processes</li>
+					</ul>
+					<img id="image1_xenotime" src="img/Xenotime/Xenotime-detrital.png" alt="Xenotime Image 1" class="library-example-image hidden">
+						<img id="image2_xenotime" src="img/Xenotime/Xenotime-depo.png" alt="Xenotime Image 2" class="library-example-image hidden">
+					<img id="image3_xenotime" src="img/Xenotime/Xenotime-TE.png" alt="Xenotime Image 3" class="library-example-image hidden">
+					<button id="ex-but1_xenotime" class="view-example hidden" onclick="window.open('https://doi.org/10.1130/G51178.1', '_blank')">View Example</button>
+					<button id="ex-but2_xenotime" class="view-example hidden" onclick="window.open('https://doi.org/10.1130/G51178.1', '_blank')">View Example</button>
+					<button id="ex-but3_xenotime" class="view-example hidden" onclick="window.open('https://doi.org/10.1130/G51178.1', '_blank')">View Example</button>
+				</div>
+
+				<h4 id="library-mineral7" class="hidden">Garnet</h4>
+				<div id="library-info-box7" class="library-info-box hidden">
+					<ul>
+						<li class="interactive" id="sec3bullet1_garnet" onclick="updateImageForSection('image1_garnet', event); showExampleButton('ex-but1_garnet', event)">Recent analytical advances enable garnet dating using the U-Pb and Lu-Hf decay systems, providing better constraints on high-grade metamorphic events in the source area</li>
+						<li class="interactive" id="sec3bullet2_garnet" onclick="updateImageForSection('image2_garnet', event); showExampleButton('ex-but2_garnet', event)">Integration with major and trace element chemistry helps distinguish metamorphic grade of garnet minerals</li>
+					</ul>
+					<img id="image1_garnet" src="img/Garnet/Garnet_Milo.PNG" alt="Garnet Image 1" class="library-example-image hidden">
+					<img id="image2_garnet" src="img/Garnet/Garnet_Milo2.PNG" alt="Garnet Image 2" class="library-example-image hidden">
+					<button id="ex-but1_garnet" class="view-example hidden" onclick="window.open('https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2023JF007244', '_blank')">View Example</button>
+					<button id="ex-but2_garnet" class="view-example hidden" onclick="window.open('https://link.springer.com/article/10.1007/s00410-021-01854-w', '_blank')">View Example</button>
+				</div>
+
+				<h4 id="library-mineral8" class="hidden">Apatite</h4>
+				<div id="library-info-box8" class="library-info-box hidden">
+					<ul>
+						<li class="interactive" id="sec3bullet1_apatite" onclick="updateImageForSection('image1_apatite', event); showExampleButton('ex-but1_apatite', event)">Apatite forms in various source rocks, letting age dating using U-Pb or Lu-Hf capture a wide range of geological processes</li>
+						<li class="interactive" id="sec3bullet2_apatite" onclick="updateImageForSection('image2_apatite', event); showExampleButton('ex-but2_apatite', event)">Trace element geochemistry correlates with protolith chemistry and allows for robust protolith discrimination</li>
+					</ul>
+					<img id="image1_apatite" src="img/Apatite/Apatite-UPb.png" alt="Apatite Image 1" class="library-example-image hidden">
+					<img id="image2_apatite" src="img/Apatite/Apatite-TE.png" alt="Apatite Image 2" class="library-example-image hidden">
+					<button id="ex-but1_apatite" class="view-example hidden" onclick="window.open('https://pubs.geoscienceworld.org/jgs/article/doi/10.1144/jgs2022-178/621548/A-detective-duo-of-apatite-and-zircon?doi=10.1144%2fjgs2022-178', '_blank')">View Example</button>
+					<button id="ex-but2_apatite" class="view-example hidden" onclick="window.open('https://pubs.geoscienceworld.org/jgs/article/doi/10.1144/jgs2022-178/621548/A-detective-duo-of-apatite-and-zircon?doi=10.1144%2fjgs2022-178', '_blank')">View Example</button>
+				</div>
+
+				<h4 id="library-mineral9" class="hidden">Cassiterite</h4>
+				<div id="library-info-box9" class="library-info-box hidden">
+					<ul>
+						<li class="interactive" id="sec3bullet1_cassiterite" onclick="updateImageForSection('image1_cassiterite', event); showExampleButton('ex-but1_cassiterite', event)">Cassiterite is labile in sedimentary systems and U-Pb dating of cassiterite tracks proximal mineralized source rocks and pathways of low maturity sediments</li>
+						<li class="interactive" id="sec3bullet2_cassiterite" onclick="updateImageForSection('image2_cassiterite', event); showExampleButton('ex-but2_cassiterite', event)">Cassiterite geochemistry can be employed to gather further details on the type of mineralization</li>
+					</ul>
+					<img id="image1_cassiterite" src="img/Cassiterite/Cassiterite_UPb.png" alt="Cassiterite Image 1" class="library-example-image hidden">
+					<img id="image2_cassiterite" src="img/Cassiterite/Cassiterite-TE.png" alt="Cassiterite Image 2" class="library-example-image hidden">
+					<button id="ex-but1_cassiterite" class="view-example hidden" onclick="window.open('https://link.springer.com/article/10.1007/s00531-015-1181-3', '_blank')">View Example</button>
+					<button id="ex-but2_cassiterite" class="view-example hidden" onclick="window.open('https://www.mdpi.com/2075-163X/11/2/199', '_blank')">View Example</button>
+				</div>
+		
+				<h4 id="library-mineral10" class="hidden">Feldspar</h4>
+						<div id="library-info-box10" class="library-info-box hidden">
+							<ul>
+								<li class="interactive" id="sec3bullet1_feldspar" onclick="updateImageForSection('image1_feldspar', event); showExampleButton('ex-but1_feldspar', event)">Feldspar is a ubiquitous component of many rocks in the continental crust</li>
+								<li class="interactive" id="sec3bullet2_feldspar" onclick="updateImageForSection('image2_feldspar', event); showExampleButton('ex-but2_feldspar', event)">Feldspar is likely to be a first-cycle mineral owing to its limited physical and chemical robustness in comparison with most accessory minerals, and hence information derived from feldspar allows quantification of the degree of sediment recycling and upgrading of the resistant economic mineral cargo</li>
+								<li class="interactive" id="sec3bullet3_feldspar" onclick="updateImageForSection('image3_feldspar', event); showExampleButton('ex-but3_feldspar', event)">Pb isotope ratios measured in Feldspar can be converted into model-based estimates of the crystallization age, as well as indices that help characterize the geochemical nature of the source (e.g., its relative U/Pb and Th/Pb content)</li>
+							</ul>
+							<img id="image1_feldspar" src="img/feldspar/Cataby KDE feldspar Homepage.png" alt="feldspar Image 1" class="library-example-image hidden">
+							<img id="image2_feldspar" src="img/feldspar/Sketch.png" alt="feldspar Image 2" class="library-example-image hidden">
+							<img id="image3_feldspar" src="img/feldspar/Cataby Kfsp 7464 Homepage.png" alt="feldspar Image 3" class="library-example-image hidden">
+							<button id="ex-but1_feldspar" class="view-example hidden" onclick="window.open('https://doi.org/10.1016/j.gsf.2018.03.009', '_blank')">View Example</button>
+							<button id="ex-but2_feldspar" class="view-example hidden" onclick="window.open('https://doi.org/10.1016/j.gsf.2018.03.009', '_blank')">View Example</button>
+							<button id="ex-but3_feldspar" class="view-example hidden" onclick="window.open('https://doi.org/10.1016/j.gsf.2018.03.009', '_blank')">View Example</button>
+						</div>
+        </div>
+		        <div class="mineral-names">
+            <span class="interactive-mineral-list" id="zircon-liblist">Zircon</span>
+            <span class="interactive-mineral-list" id="baddeleyite-liblist">Baddeleyite</span>
+            <span class="interactive-mineral-list" id="rutile-liblist">Rutile</span>
+            <span class="interactive-mineral-list" id="titanite-liblist">Titanite</span>
+            <span class="interactive-mineral-list" id="monazite-liblist">Monazite</span>
+            <span class="interactive-mineral-list" id="xenotime-liblist">Xenotime</span>
+            <span class="interactive-mineral-list" id="garnet-liblist">Garnet</span>
+            <span class="interactive-mineral-list" id="apatite-liblist">Apatite</span>
+            <span class="interactive-mineral-list" id="cassiterite-liblist">Cassiterite</span>
+			<span class="interactive-mineral-list" id="feldspar-liblist">Feldspar</span>
+        </div>
+    </div>
+</section>
+<section id="section7" class="collapsible-section">
+    <h3 class="section-header collapsed">
+        <img src="img/layer-group-solid.svg" alt="Toolbox Icon" width="25px" height="25px"> The Bigger Picture
+    </h3>
+    <div class="content-wrapper">
+        <ul>
+            <li class="interactive" id="bullet10"  style="margin-left: 20px;" onclick="showExampleButton('ex-but10', event); updateImageForSection('image10', event)">The integration of campaign-style analysis of detrital minerals with cutting-edge data analysis techniques enables unparalleled understanding of sedimentary systems</li>
+			<li class="interactive" id="bullet11" onclick="showExampleButton('ex-but11', event); updateImageForSection('image11', event)">Campaign-style geochronological and geochemical characterizations facilitate reliable intra- and inter-deposit comparisons, enabling the association of deposits with specific strandlines and the effective deciphering of the underlying sediment routing systems</li>
+			<li class="interactive" id="bullet12" onclick="showExampleButton('ex-but12', event); updateImageForSection('image12', event)">Big data allows robust source quantification of a diverse range of processes, e.g., upgrading history through intermediate basins, sediment mixing, and longshore drift processes</li>
+        </ul>
+		<div class="image-bigger-picture">
+        <img id="image10" src="img/The Bigger Picture/Paleogeographic_reconstruction.png" alt="Image 10" class="bigger-picture-example-image hidden">
+        <img id="image11" src="img/The Bigger Picture/Campaign-style.PNG" alt="Image 11" class="bigger-picture-example-image hidden">
+        <img id="image12" src="img/The Bigger Picture/Big-data.PNG" alt="Image 12" class="bigger-picture-example-image hidden">
+        <button id="ex-but10" class="view-example hidden" onclick="window.open('https://doi.org/10.1130/L1068.1', '_blank')">View Example</button>
+        <button id="ex-but11" class="view-example hidden" onclick="window.open('https://doi.org/10.1016/j.gsf.2023.101579', '_blank')">View Example</button>
+        <button id="ex-but12" class="view-example hidden" onclick="window.open('https://doi.org/10.1016/j.epsl.2015.12.036', '_blank')">View Example</button> 
+			</div>
+    </div></section>
+
+		<section id="section5" class="collapsible-section">
+        <h3 class="section-header collapsed">
+  <img src="img/flask-solid.svg" alt="Toolbox Icon" width="25px" height="25px"> Our Workflow</h3>
+     <img src="img/Workflow.svg" alt="Our Workflow" class="content-wrapper">
+</section>
+<section id="section6" class="collapsible-section">
+    <h3 class="section-header collapsed">
+        <img src="img/handshake-simple-solid.svg" alt="Toolbox Icon" width="27px" height="27px"> Our Indicative Costs
+    </h3>
+    <div id="app" class="content-wrapper">
+        <p>Costs vary depending on the number of samples and the specific analyses requested. However, indicative costs per sample are approximately $5,000 AUD, which includes the complete workflow from rock or heavy mineral concentrate to results. This includes sample preparation, sample characterisation, analysis, and comprehensive reporting within an interpretative framework. We invite you to engage in a preliminary discussion for a more precise cost estimation tailored to your needs.</p>
+    </div>
+</section>
+
+				 <section id="section4">
+            <h3>
+  <img src="img/envelope-solid.svg" alt="Toolbox Icon" width="23px" height="23px"> Contact us for more information</h3>
+					        <div class="logo-container">
+            <img src="img/TMS-logo_Master.jpg" alt="Logo" class="logo">
+        </div>
+<div class="contact-container">
+  <div class="contact-details">
+    <ul class="contact-details">
+      <li>Phone: <a href="tel:+61892664956">+61 (8) 9266 4956</a></li>
+      <li>Email: <a href="mailto:timescales@curtin.edu.au">timescales@curtin.edu.au</a></li>
+      <li>Web: <a href="http://curtin.edu/timescales" target="_blank" onclick="openNewWindow('http://curtin.edu/timescales')">curtin.edu/timescales</a></li>
+    </ul>
+  </div>
+</div>
+        </section>
+    </main>
+	    <footer>
+      <p>&copy; 2024 Timescales of Mineral Systems Group. All rights reserved.</p>
+    </footer>
+</body>
+</html>
